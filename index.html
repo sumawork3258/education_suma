@@ -180,7 +180,53 @@
       font-weight: bold;
       font-size: 1rem;
     }
-    
+.news-section {
+      background-color: #f8f9fa;
+      padding: 50px 0;
+      text-align: center;
+    }
+    .news-section h2 {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .news-subtitle {
+      color: #a4161a;
+      font-weight: bold;
+      letter-spacing: 2px;
+      margin-bottom: 40px;
+    }
+    .news-card {
+      border: none;
+      background-color: #e9ecef;
+      transition: transform 0.3s ease;
+    }
+    .news-card:hover {
+      transform: translateY(-5px);
+    }
+    .news-card img {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+    }
+    .news-card .card-body {
+      text-align: center;
+    }
+    .news-card h5 {
+      font-size: 1rem;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+    .news-card small {
+      color: #a4161a;
+      font-weight: bold;
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-color: #a4161a;
+      border-radius: 50%;
+      padding: 20px;
+    }
+   
 
 
 
@@ -419,6 +465,81 @@
         </div>
       </div>
 
+    </div>
+  </div>
+</section>
+
+<!-- News Section -->
+<section class="news-section">
+  <div class="container">
+    <h2>News</h2>
+    <p class="news-subtitle">NEWS FROM THE HILLSIDE</p>
+    
+    <div id="newsCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div class="row g-4 justify-content-center">
+            
+            <div class="col-md-4">
+              <div class="card news-card">
+                <img src="Images/study1.jpg" alt="News 1">
+                <div class="card-body">
+                  <h5>WELCOMING BACK STEVEN QUINONES AS SKSPA CHAIR</h5>
+                  <small>AUG 28</small>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-4">
+              <div class="card news-card">
+                <img src="Images/study2.jpg" alt="News 2">
+                <div class="card-body">
+                  <h5>YOU'RE INVITED TO COMMUNITY DAY!</h5>
+                  <small>AUG 24</small>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-4">
+              <div class="card news-card">
+                <img src="Images/study3.jpg" alt="News 3">
+                <div class="card-body">
+                  <h5>FALL FAMILY WEEKEND</h5>
+                  <small>JUL 19</small>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+        <!-- Example for another Slide (if needed) -->
+        <div class="carousel-item">
+          <div class="row g-4 justify-content-center">
+            <div class="col-md-4">
+              <div class="card news-card">
+                <img src="Images/study4.jpg" alt="News 4">
+                <div class="card-body">
+                  <h5>NEW DORM OPENS</h5>
+                  <small>SEP 2</small>
+                </div>
+              </div>
+            </div>
+            <!-- Add more news cards here -->
+          </div>
+        </div>
+
+      </div>
+      
+      <!-- Arrows -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#newsCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#newsCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
     </div>
   </div>
 </section>
