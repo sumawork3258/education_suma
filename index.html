@@ -92,6 +92,37 @@
     .btn-dark {
       margin-top: 15px;
     }
+.virtual-tour {
+      background-color: #f8f9fa;
+      padding: 50px 0;
+      text-align: center;
+    }
+    .virtual-tour h2 {
+      font-weight: bold;
+      margin-bottom: 30px;
+      position: relative;
+      display: inline-block;
+    }
+    .virtual-tour h2::after {
+      content: "";
+      display: block;
+      width: 50%;
+      height: 2px;
+      background-color: #a4161a;
+      margin: 10px auto 0;
+    }
+    .tour-btn {
+      background-color: #a4161a;
+      color: #fff;
+      font-weight: bold;
+      padding: 20px;
+      border: none;
+      width: 100%;
+      transition: 0.3s;
+    }
+    .tour-btn:hover {
+      background-color: #7d1013;
+    }
     
 
 
@@ -255,6 +286,33 @@
 
   </div>
 </div>
+
+<!-- Virtual Tour Section -->
+<section class="virtual-tour">
+  <div class="container">
+    <h2>Virtual Tour</h2>
+    <div class="row mt-4 g-3">
+      <div class="col-md-4 col-6">
+        <button class="tour-btn">STUDENT TOUR</button>
+      </div>
+      <div class="col-md-4 col-6">
+        <button class="tour-btn">ENGLISH</button>
+      </div>
+      <div class="col-md-4 col-6">
+        <button class="tour-btn">KOREAN</button>
+      </div>
+      <div class="col-md-4 col-6">
+        <button class="tour-btn">CHINESE</button>
+      </div>
+      <div class="col-md-4 col-6">
+        <button class="tour-btn">JAPANESE</button>
+      </div>
+      <div class="col-md-4 col-6">
+        <button class="tour-btn">VIETNAMESE</button>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 
