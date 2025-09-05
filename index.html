@@ -128,6 +128,58 @@
       padding: 50px 0;
     }
 
+    .get-to-know h3 {
+      font-weight: bold;
+      margin-bottom: 20px;
+      position: relative;
+      display: inline-block;
+    }
+    .get-to-know h3::after {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 2px;
+      background-color: #a4161a;
+      margin-top: 8px;
+    }
+.explore-section {
+      background-color: #f8f9fa;
+      padding: 50px 0;
+      text-align: center;
+    }
+    .explore-section h2 {
+      font-weight: bold;
+      margin-bottom: 40px;
+      position: relative;
+      display: inline-block;
+    }
+    .explore-section h2::after {
+      content: "";
+      display: block;
+      width: 60%;
+      height: 2px;
+      background-color: #a4161a;
+      margin: 8px auto 0;
+    }
+    .explore-card {
+      border: none;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+      background-color: #e9ecef;
+    }
+    .explore-card:hover {
+      transform: translateY(-5px);
+    }
+    .explore-card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+    .explore-card .card-body {
+      text-align: center;
+      font-weight: bold;
+      font-size: 1rem;
+    }
     
 
 
@@ -330,6 +382,47 @@
     </p>
   </div>
 </section>
+
+<!-- Explore Section -->
+<section class="explore-section">
+  <div class="container">
+    <h2>Explore South Kent School</h2>
+    <div class="row g-4 mt-4">
+      
+      <!-- Card 1 -->
+      <div class="col-md-4">
+        <div class="card explore-card">
+          <img src="Images/academic.jpg" alt="Academics">
+          <div class="card-body">
+            ACADEMICS
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-4">
+        <div class="card explore-card">
+          <img src="Images/play at south.jpg" alt="Playing at South Kent">
+          <div class="card-body">
+            PLAYING AT SOUTH KENT
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-4">
+        <div class="card explore-card">
+          <img src="Images/life on.jpg" alt="Life on the Hillside">
+          <div class="card-body">
+            LIFE ON THE HILLSIDE
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
 
 
