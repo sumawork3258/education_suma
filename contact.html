@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        .hero-section {
+            background-image: url('images/background.jpg'); no-repeat center;
+            background-size: cover;
+            height: 90vh;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+        }
+
+        .hero-overlay {
+            background: rgba(0, 0, 0, 0.3);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .breadcrumb-custom {
+            background: #f8f9fa;
+            padding: 10px 20px;
+        }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: url('hero-bg.jpg') center/cover no-repeat;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      color: #fff;
+      text-align: center;
+    }
+    .hero::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+    }
+    .hero-content {
+      position: relative;
+      z-index: 2;
+    }
+
+    /* Contact Section */
+    .contact-info {
+      background: #f8f9fa;
+      padding: 40px;
+      border-radius: 8px;
+      height: 100%;
+    }
+
+    .footer {
+      background-color: #d9d9d9;
+      padding: 40px 0;
+    }
+    .footer h6 {
+      font-weight: bold;
+      font-size: 0.95rem;
+      color: #555;
+      margin-bottom: 15px;
+    }
+    .footer .social-icons a {
+      color: #a4161a;
+      font-size: 1.2rem;
+      margin-right: 12px;
+      transition: color 0.3s;
+    }
+    .footer .social-icons a:hover {
+      color: #333;
+    }
+    .footer .btn-red {
+      background-color: #a4161a;
+      color: #fff;
+      border: none;
+    }
+    .footer .btn-red:hover {
+      background-color: #7d1014;
+    }
+    .footer-bottom {
+      background-color: #a4161a;
+      color: #fff;
+      padding: 15px 0;
+      text-align: center;
+    }
+    .footer-bottom a {
+      color: #fff;
+      margin: 0 10px;
+      font-size: 0.9rem;
+      text-decoration: none;
+    }
+    .footer-bottom a:hover {
+      text-decoration: underline;
+    }
+
+  </style>
+</head>
+<body>
+    <!-- Top Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-danger py-2">
+  <div class="container">
+
+    <!-- Brand / Toggler -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+      aria-label="Toggle navigation" style="border-color: #fff;">
+      <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
+    </button>
+
+    <!-- Navbar Links -->
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link text-white" href="#">HOME</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#">ABOUT</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#">ADMISSION</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#">ACADEMICS</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#">ALUMNI</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#">NOTICE</a></li>
+      </ul>
+
+      <!-- Social Icons (Top Right) -->
+      <div class="d-flex">
+        <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-white me-2"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="text-white me-2"><i class="bi bi-youtube"></i></a>
+        <a href="#" class="text-white me-2"><i class="bi bi-linkedin"></i></a>
+        <a href="#" class="text-white"><i class="bi bi-tiktok"></i></a>
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+  <!-- Contact Section -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-5">Contact Us</h2>
+      <div class="row g-4">
+        
+        <!-- Contact Info -->
+        <div class="col-md-4">
+          <div class="contact-info shadow-sm">
+            <h5 class="fw-bold mb-3">Get in Touch</h5>
+            <p><strong>Address:</strong><br>123 Main Street, Dhaka, Bangladesh</p>
+            <p><strong>Phone:</strong><br>+880 123 456 789</p>
+            <p><strong>Email:</strong><br>info@example.com</p>
+          </div>
+        </div>
+
+       
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+<footer class="footer">
+  <div class="container">
+    <div class="row align-items-start">
+      
+      <!-- Logo + Contact -->
+      <div class="col-md-4 text-center text-md-start mb-4">
+        <img src="Images/images.jpg" alt="South Kent School" style="max-height:70px;">
+        <h6 class="mt-3">CONTACT</h6>
+        <p class="mb-1">40 Bulls Bridge Road<br>South Kent, CT 06785</p>
+        <p><a href="tel:8609273539" class="text-danger">(860) 927-3539</a></p>
+      </div>
+      
+      <!-- Socials -->
+      <div class="col-md-4 text-center mb-4">
+        <h6>SOCIALS & PORTAL</h6>
+        <div class="social-icons mb-3">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-tiktok"></i></a>
+        </div>
+        <button class="btn btn-red px-4">MYSKS Login <i class="fas fa-arrow-right ms-1"></i></button>
+      </div>
+      
+      <!-- Newsletter -->
+      <div class="col-md-4 text-center text-md-start">
+        <h6>NEWSLETTER SIGN-UP</h6>
+        <form class="d-flex flex-column flex-sm-row gap-2">
+          <input type="email" class="form-control" placeholder="Email Address">
+          <button type="submit" class="btn btn-red">Submit <i class="fas fa-arrow-right ms-1"></i></button>
+        </form>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- Bottom bar -->
+  <div class="footer-bottom mt-4">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+      <p class="mb-2 mb-md-0">© South Kent School. | All Rights Reserved.</p>
+      <div>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Media Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
